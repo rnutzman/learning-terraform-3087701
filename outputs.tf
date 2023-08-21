@@ -7,10 +7,10 @@ output "instance_arn" {
 }
 
 output "security_group_arn" {
-  value = <terraform security group name>.security_group_arn
+  value = blog_sg.security_group_arn
 }
 
 output "security_group_name" {
-  value = <terraform security group name>.security_group_name
+  value = blog_sg.security_group_name
 }
 
